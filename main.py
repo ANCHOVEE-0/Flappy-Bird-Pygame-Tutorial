@@ -64,7 +64,7 @@ class Player:
         self.apply_gravity()
         
         # top and bottom borders
-        self.y = min(display.height - self.height, self.y)
+        self.y = min(display.get_height() - self.height, self.y)
         self.y = max(0, self.y)
 
     def get_rect(self):
