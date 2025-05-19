@@ -50,7 +50,6 @@ class Player:
         # other game variables
         self.downwards = 0
         self.upwards = -3
-        self.jumped = False
 
     def jump(self):
         self.downwards = 0
